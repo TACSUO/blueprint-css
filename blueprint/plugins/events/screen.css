@@ -1,0 +1,33 @@
+/* event calendars */
+/* #event_description { position: absolute; width: 150px; background: #EEE; border: 1px solid #999; z-index: 99; } */
+.calendars { width: 260px; float: left; padding-right: 20px; }
+#event_quick_description { clear: both; border: 1px solid #999; background: #FFC; padding: 12px; margin-top: 15px; }
+.fc-grid table { margin-bottom: 0 }
+.fc table { margin-bottom: 0; }
+#calendar_front_page { font-size: 12px; }
+#calendar_front_page h2 { font-size: 1.3em }
+
+div.select_popper_box ul li:hover { background: #EEE; }
+
+form.formtastic li {
+  width: 380px;
+  margin-right: 40px;
+}
+
+form.formtastic fieldset ol li { vertical-align:top; }
+form.formtastic fieldset ol li label { width: 30%; }
+form.formtastic fieldset ol li.string input { width: 69%; }
+form.formtastic fieldset ol li.string input { width: 69%; }
+form.formtastic fieldset ol li.text textarea { width: 69%; height: 70px; }
+form.formtastic fieldset ol li.check_boxes fieldset ol li label { font-weight: normal; padding-left: 40px; }
+
+form.formtastic fieldset ol li p.inline-hints {
+  color:#666666;
+  font-size:11px;
+  margin:0.3em 0 0 25%;
+}
+
+#event_start_on_input label { width: 49% }
+#event_start_on { width: 50% }
+#event_end_on_input label { width: 49% }
+#event_end_on { width: 50% }

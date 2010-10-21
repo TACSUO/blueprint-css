@@ -1,0 +1,4 @@
+ul.contact_attributes { list-style-type: none; }
+ul.contact_attributes li { clear:both; }
+ul.contact_attributes li strong { padding-right: 5px; }
+ul.contact_attributes div { padding: 0 5px }
