@@ -56,7 +56,7 @@ input[type="checkbox"], input[type="radio"], input.checkbox, input.radio { top: 
   border-top: none;
 }
 
-#main_menu ul { list-style: none; padding-top: 8px; margin-left: 18px; margin-bottom: 12px; line-height: 175%; }
+#main_menu ul { list-style: none; padding-top: 8px; margin-bottom: 12px; }
 #main_menu a:link, #main_menu a:visited { color: #339; }
 #main_menu a:hover { color: #66C; }
 
@@ -68,6 +68,7 @@ input[type="checkbox"], input[type="radio"], input.checkbox, input.radio { top: 
   font-weight: bold;
   border: 1px solid #2f4f4f;
   padding: 0 3px 0 3px;
+  white-space: nowrap;
 }
 
 /* error messages */
