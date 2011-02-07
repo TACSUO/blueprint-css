@@ -26,6 +26,27 @@ input[type="checkbox"], input[type="radio"], input.checkbox, input.radio { top: 
 
 .caps { font-size: 1em; font-variant: normal; letter-spacing: 0; padding: 0; text-transform: none; }
 
+form.formtastic li {
+  width: 380px;
+  margin-right: 40px;
+}
+
+form.formtastic fieldset ol li { vertical-align:top; }
+form.formtastic fieldset ol li label { width: 30%; }
+form.formtastic fieldset ol li.string input { width: 69%; }
+form.formtastic fieldset ol li.string input { width: 69%; }
+form.formtastic fieldset ol li.text textarea { width: 69%; height: 70px; }
+form.formtastic fieldset ol li.check_boxes fieldset ol li label { font-weight: normal; padding-left: 40px; }
+
+form.formtastic fieldset ol li p.inline-hints {
+  color:#666666;
+  font-size:11px;
+  margin:0.3em 0 0 25%;
+}
+/* cursor styles */
+.collapsible {
+  cursor: pointer;
+}
 /* elements and classes likely to be customized/overridden */
 .base_content {
   background: #fff;
